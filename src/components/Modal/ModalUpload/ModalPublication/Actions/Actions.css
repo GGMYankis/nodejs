@@ -1,0 +1,57 @@
+.action {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #3a3b3c;
+}
+
+.action .firt-div {
+  border-bottom: 1px solid #b0b3b8;
+}
+.action .firt-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b0b3b8;
+  padding: 0 30px;
+  height: 40px;
+}
+.action div p {
+  margin: 0;
+}
+
+.action div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.action div i {
+  cursor: pointer;
+  font-size: 18px;
+}
+.footer {
+  padding: 0 30px;
+}
+
+.footer-actions {
+  background-color: transparent;
+  display: flex;
+  padding: 4px 30px;
+  border-radius: 3px;
+  color: #b0b3b8;
+}
+
+.footer-actions:hover {
+  background-color: gray;
+  border-radius: 3px;
+}
+.footer-actions p {
+  font-weight: bold;
+}
+.like.active {
+  color: var(--all-background);
+}
+
+/* #B0B3B8 */

@@ -1,0 +1,24 @@
+
+
+.modal-publication{
+    height: 500px !important;
+    border-radius: 16px !important;
+    overflow: hidden;
+}
+.modal-publication .ui.grid{
+    height: 100%;
+    margin: 0;
+    
+}
+.modal-publication__left{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+.modal-publication__right{
+   margin: 0;
+   height: 100%;
+ 
+}

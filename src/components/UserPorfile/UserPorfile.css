@@ -1,0 +1,136 @@
+.porfile-avatar {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.box-avatar-porfile {
+  display: flex;
+}
+
+/* .option_porfile_left{
+background-color: antiquewhite;
+position: absolute;
+bottom: 0;
+} */
+.porfile_left {
+  background-color: var(--all-background);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+   border-radius: 50%; 
+}
+.porfile_left:hover{
+  cursor: pointer;
+}
+.porfile_left img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 3px solid var(--gray-claro);
+}
+.porfile_rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20px;
+}
+.porfile_rigth h1 {
+  margin: 0;
+  font-size: 32px;
+  font-family: inherit;
+  color: var(--text-white);
+  text-align: left;
+}
+.porfile_rigth p {
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--letras-gray);
+}
+.other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.other button {
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+.other button:hover {
+  opacity: 0.95;
+  cursor: pointer;
+}
+.other button:nth-child(1) {
+  background-color: var(--all-background);
+  color: var(--blaco-letras);
+  padding: 10px 20px;
+}
+.other button:nth-child(2) {
+  background-color: var(--all-background);
+  color: var(--blaco-letras);
+  padding: 10px 30px;
+}
+
+@media (max-width: 1000px) {
+  .porfile-avatar {
+    width: 90%;
+  }
+}
+
+@media (max-width: 850px) {
+  .porfile-avatar {
+    width: 100%;
+  }
+}
+@media (max-width: 680px) {
+  
+  .other button:nth-child(1) {
+    margin-bottom: 10px;
+  }
+  .porfile-avatar {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .porfile_rigth h1 {
+    font-size: 25px;
+    text-align: left;
+  }
+  .other{
+    justify-content: end;
+  }
+  .other button:nth-child(1) {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 541px) {
+  .other {
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-avatar-porfile {
+    flex-direction: column;
+  }
+ 
+  .box-avatar-porfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .porfile_left {
+    margin-bottom: 10px;
+  }
+  .porfile_rigth h1{
+  font-size: 30px;
+  }
+}

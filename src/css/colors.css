@@ -1,0 +1,39 @@
+
+:root {
+    --all-background: #c32ec9;
+  
+    --all-gray:#242526;
+    --gray-claro:#3A3B3C;
+    --letras-gray:#e4e6eb;
+    --blaco-letras:#fff;
+    
+
+    --gray-dark:#18191A;
+     --text-white:#fff;
+     --bg-white:#242526;
+     --gray-claro:#3A3B3C;
+     --profile-user:#3a3b3c;
+     --sombra:#18191a;
+     --text-publication:#e4e6eb;
+     --modal-upload:#242526;
+     --border-upload:#3A3B3C;
+     --border:#e4e6eb;
+  }
+
+  .white-mode{
+    --gray-dark:#fff;
+    --text-white:#242526;
+    --bg-white:#fff;
+    --profile-user:#fff;
+    --letras-gray:#242526;
+    --sombra:rgba(203,203,210,0.4);
+    --modal-upload:#fff;
+    --border-upload:#eee;
+    --border:#eee
+  }
+  
+ 
+ /* 
+ azul = 712cf9
+    morado = 8A2BE2
+  */

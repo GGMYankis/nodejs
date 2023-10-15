@@ -1,0 +1,48 @@
+
+.cont-register{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border: 1px solid var();
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.cont-register h2{
+    margin: 0;
+    padding: 10px 0px 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:100;
+    color: var(--all-background);
+}
+.cont-register label{
+    font-weight: 600;
+    color: var(--all-background);
+    margin-bottom: 5px;
+}
+
+.cont-register input{
+    padding: 10px 16px;
+    border-radius:3px ;
+    margin-bottom: 16px;
+    border: 1px solid #cbcbd2;
+    outline: none;
+    color: purple;
+}
+
+.cont-register .btn-register {
+    padding: 10px 0px;
+    width: 100%;
+    background-image: linear-gradient(to left , var(--all-background),rgb(197, 77, 240) );
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.cont-register .btn-register:hover{
+    opacity: 0.80;
+    cursor: pointer;
+}

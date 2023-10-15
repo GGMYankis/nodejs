@@ -1,0 +1,45 @@
+@import "../../../../../css/colors.css";
+
+.comment-form{
+    position: absolute !important;
+    top: 0;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    background-color: var(--all-background);
+    height: 60px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.field{
+    margin: 0 !important;
+    width: 100%;
+}
+.comment-form input{
+    background-color: var(--blaco-letras);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    padding: 0px 10px;
+    height: 40px;
+}
+.comment-form .btn{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--all-background);
+    padding: 0px 10px;
+    margin-right: 5px;
+    background-color: var(--all-background); 
+    font-weight: bold;
+    color: var(--blaco-letras);
+}
+
+.comment-form .btn:hover{
+   color: var(--all-background);
+   border: 2px solid var(--blaco-letras);
+   background-color: var(--blaco-letras);
+
+}

@@ -1,0 +1,40 @@
+
+.followers{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.followers p:nth-child(1) {
+  margin-right: 10px;
+
+}
+.followers p:nth-child(2) {
+  margin-left: 10px;
+}
+
+.followers p {
+    font-size: 15px;
+    color: var(--letras-gray);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0px 10px;
+}
+.followers .count{
+  font-size: 15px;
+  color: var(--all-background);
+}
+
+@media (max-width:680px) {
+  .followers{
+    justify-content: center;
+    align-items: center;
+  }
+  .followers p {
+    margin: 0;
+  }
+  
+}

@@ -1,0 +1,43 @@
+
+
+.commnets{
+    height:calc(100% - 60px);
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 5px;
+    position: relative;
+}
+.comment-avatar{
+  
+  margin-right: 10px;
+}
+/* 
+1: #18191A
+2: #242526
+#: #3A3B3C
+*/
+.comment-text{
+    background-color: var(--all-background);
+    border-radius: 10px;
+    color: #e4e6eb;
+    padding: 0px 10px;
+    text-align: left;
+}
+.comment-text p:nth-child(1){
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.comment-text p:nth-child(2){
+  font-size: 15px;
+}

@@ -1,0 +1,106 @@
+.uploadPerfil {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--border-upload);
+  padding: 80px 0 20px 0px;
+}
+
+
+.viewImg{
+  background-color: var(--modal-upload);
+  width: 96%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.viewImg i.icon{
+  font-size: 50px;
+  color: var(--all-background);
+}
+
+.viewImg p{
+  color:var(--letras-gray);
+}
+.imgFondo {
+  width: 100% !important;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: orange;
+}
+.imgFondo img {
+  width: 100%;
+  height: 100%;
+}
+
+.cont_text_uploadPerfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  color: var(--blaco-letras);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 10px;
+  background-color: var( --border-upload);
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.cont_text_uploadPerfil p {
+    font-size: 25px;
+    margin: 0;
+    color: var(--text-white);
+   
+}
+.cont_text_uploadPerfil button {
+  padding: 5px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.cont_text_uploadPerfil button:nth-child(1) {
+  background-color: transparent;
+  color: var(--letras-gray);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.cont_text_uploadPerfil button:nth-child(1):hover {
+  background-color: var(--gray-claros);
+  cursor: pointer;
+}
+
+.cont_text_uploadPerfil .upload{
+    background-color: var(--border-upload);
+}
+.cont_text_uploadPerfil .upload:hover{
+  cursor: pointer;
+}
+.cont_text_uploadPerfil i.icon {
+  color: var(--blaco-letras);
+  font-size: 15px;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .imgFondo {
+    width: 80%;
+  }
+  
+  .cont_text_uploadPerfil p{
+    font-size: 15px;
+  }
+}
